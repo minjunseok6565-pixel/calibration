@@ -28,7 +28,7 @@ OFFENSE_SCHEME_MULT: Dict[str, Dict[str, Dict[str, float]]] = {
                         "ExtraPass": {"PASS_EXTRA":1.10, "SHOT_3_CS":1.05},
                         "DHO": {"RESET_REDO_DHO":0.95, "PASS_KICKOUT":1.05},
                         "PnR": {"SHOT_3_OD":0.90, "SHOT_MID_PU":0.95}},
-    "DHO_Chicago": "DHO_Chicago": {"DHO": {"SHOT_3_OD":1.10, "SHOT_3_CS":1.07, "SHOT_MID_PU":1.05, "SHOT_TOUCH_FLOATER":0.90, "PASS_KICKOUT":1.03, "TO_HANDLE_LOSS":0.97, "RESET_REDO_DHO":0.95},
+    "DHO_Chicago":  {"DHO": {"SHOT_3_OD":1.10, "SHOT_3_CS":1.07, "SHOT_MID_PU":1.05, "SHOT_TOUCH_FLOATER":0.90, "PASS_KICKOUT":1.03, "TO_HANDLE_LOSS":0.97, "RESET_REDO_DHO":0.95},
                    "ISO": {"SHOT_3_OD":1.05, "SHOT_RIM_LAYUP":1.03, "PASS_KICKOUT":1.06, "SHOT_MID_PU":0.95},
                    "Drive": {"SHOT_RIM_LAYUP":1.05}},
     "Post_InsideOut": {"PostUp": {"SHOT_POST":1.25, "PASS_KICKOUT":1.10, "FOUL_DRAW_POST":1.15, "RESET_POST_OUT":0.90},
